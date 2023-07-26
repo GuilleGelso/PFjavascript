@@ -1,7 +1,7 @@
 
 function miProgramaPrincipal() {
 
-  const urlLocal = '/db.json';
+  const urlLocal = '../db.json';
   let productos=[]
  fetch(urlLocal)
 .then(response => response.json())
